@@ -59,15 +59,15 @@
 						<ul>
 							<li><a href="index.html"><div>Home</div></a></li>
 							<li><a href="about-me.html"><div>About Me</div></a></li>
-							<li><a href="index.html"><div>Interests</div></a>
+							<li><a href="philanthropy.html"><div>Interests</div></a>
 								<ul>
-									<li><a href="index.html"><div>Ministry</div></a></li>
-									<li><a href="index.html"><div>Philantropy</div></a></li>
-									<li><a href="index.html"><div>Business</div></a></li>
-									<li><a href="index.html"><div>Writing</div></a></li>
+									<li><a href="ministry.html"><div>Ministry</div></a></li>
+									<li><a href="philanthropy.html"><div>Philantropy</div></a></li>
+									<li><a href="business.html"><div>Business</div></a></li>
+									<li><a href="writing.html"><div>Writing</div></a></li>
 								</ul>
 							</li>
-							<li><a href="index.html"><div>Blog</div></a></li>
+							<li><a href="blog.html"><div>Blog</div></a></li>
 							<li class="current"><a href="contact.html"><div>Contact</div></a></li>
 						</ul>
 					</nav><!-- #primary-menu end -->
@@ -84,117 +84,104 @@
 				<h1>Contact</h1>
 			</div>
 
-		</section><!-- #page-title end -->
+		</section>
 
 
-			<!-- Content
-		============================================= -->
-		<section id="content">
+			<section id="content">
+
 			<div class="content-wrap">
-				<div class="widget clearfix">
-
-					<h4>Connect with Me</h4>
-					<a href="#" class="social-icon si-colored si-small si-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-						<i class="icon-facebook"></i>
-						<i class="icon-facebook"></i>
-					</a>
-
-					<a href="#" class="social-icon si-colored si-small si-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-						<i class="icon-twitter"></i>
-						<i class="icon-twitter"></i>
-					</a>
-
-					<a href="#" class="social-icon si-colored si-small si-instagram" data-toggle="tooltip" data-placement="top" title="Instagram">
-						<i class="icon-instagram"></i>
-						<i class="icon-instagram"></i>
-					</a>
-				</div>
 
 				<div class="container clearfix">
 
-					<!-- Postcontent
+					<!-- Post Content
 					============================================= -->
-					<div class="postcontent nobottommargin">
+					<div class="postcontent nobottommargin clearfix">
+						<div class="col-full">
+							<div class="fancy-title">
+								<h3>Send a Message</h3>
+							</div>
 
-						<h3>Send a Message</h3>
+							<div class="form-widget">
 
-						<div class="form-widget">
+								<div class="form-result"></div>
 
-							<div class="form-result"></div>
+								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
 
-							<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+									<div class="form-process"></div>
 
-								<div class="form-process"></div>
+									<div class="col_one_third">
+										<label for="template-contactform-name">Full Name <small>*</small></label>
+										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+									</div>
 
-								<div class="col_one_third">
-									<label for="template-contactform-name">Full Name <small>*</small></label>
-									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
-								</div>
+									<div class="col_one_third">
+										<label for="template-contactform-email">Email <small>*</small></label>
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+									</div>
 
-								<div class="col_one_third">
-									<label for="template-contactform-email">Email <small>*</small></label>
-									<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
-								</div>
+									<div class="col_one_third col_last">
+										<label for="template-contactform-phone">Phone</label>
+										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+									</div>
 
-								<div class="col_one_third col_last">
-									<label for="template-contactform-phone">Phone</label>
-									<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
-								</div>
+									<div class="clear"></div>
 
-								<div class="clear"></div>
+									<div class="col_full">
+										<label for="template-contactform-subject">Subject <small>*</small></label>
+										<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+									</div>
 
-								<div class="col_full">
-									<label for="template-contactform-subject">Subject <small>*</small></label>
-									<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
-								</div>
+									<div class="clear"></div>
 
-								<div class="clear"></div>
+									<div class="col_full">
+										<label for="template-contactform-message">Message <small>*</small></label>
+										<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+									</div>
 
-								<div class="col_full">
-									<label for="template-contactform-message">Message <small>*</small></label>
-									<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
-								</div>
+									<div class="col_full hidden">
+										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+									</div>
 
-								<div class="col_full hidden">
-									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-								</div>
+									<div class="col_full">
+										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+									</div>
 
-								<div class="col_full">
-									<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
-								</div>
+									<input type="hidden" name="prefix" value="template-contactform-">
 
-								<input type="hidden" name="prefix" value="template-contactform-">
+								</form>
+							</div>
 
-							</form>
 						</div>
+
 
 					</div><!-- .postcontent end -->
 
 					<!-- Sidebar
 					============================================= -->
-					<div class="sidebar col_last nobottommargin">
-						<div class="widget noborder notoppadding">
+					<div class="sidebar nobottommargin col_last clearfix">
+						<div class="sidebar-widgets-wrap">
+							<div class="widget clearfix">
+								<h4>Connect with Me</h4>
+								<a href="https://www.facebook.com/Ladykehindekamson/" class="social-icon si-colored si-small si-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
 
-							<a href="#" class="social-icon si-small si-dark si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
+								<a href="https://www.twitter.com/kehinde_kamson/" class="social-icon si-colored si-small si-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
 
-							<a href="#" class="social-icon si-small si-dark si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-dark si-instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-							</a>
+								<a href="https://www.instagram.com/kehinde_kamson/" class="social-icon si-colored si-small si-instagram" data-toggle="tooltip" data-placement="top" title="Instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+							</div>
 						</div>
 					</div><!-- .sidebar end -->
 				</div>
 			</div>
-		</section>
-
+		</section><!-- #content end -->
 
 		<!-- 	Footer
 		============================================= -->
@@ -212,7 +199,7 @@
 					<div class="col_half col_last tright">
 						<div class="fright clearfix">
 							<div class="copyrights-menu copyright-links nobottommargin">
-								<a href="index.html">Home</a>/<a href="about-me.html">About Me</a>/<a href="interests.html">Interests</a>/<a href="blog.html">Blog</a>/<a href="contact.html">Contact</a>
+								<a href="index.html">Home</a>/<a href="about-me.html">About Me</a>/<a href="philanthropy.html">Interests</a>/<a href="blog.html">Blog</a>/<a href="contact.html">Contact</a>
 							</div>
 						</div>
 					</div>

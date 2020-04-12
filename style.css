@@ -416,6 +416,10 @@ span.middot {
 
 .nobgcolor { background-color: transparent !important; }
 
+.fontsmall { font-size: small; }
+.fontmedium { font-size: medium; }
+.fontlarge { font-size: large; }
+
 .t300 { font-weight: 300 !important; }
 
 .t400 { font-weight: 400 !important; }
@@ -4678,7 +4682,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 .masonry-thumbs img {
 	width: 100%;
 	border-radius: 0 !important;
-	padding: 0 1px 1px 0;
+	padding: 0 1px 0 0;
 }
 
 .masonry-thumbs .overlay { padding: 0 1px 1px 0; }
